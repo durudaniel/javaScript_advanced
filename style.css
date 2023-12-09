@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+}
+/*article {
+  background-color: #ddd;
+}*/
+.el-1 {
+  background-color: blue;
+  align-self: flex-start;
+}
+.el-2 {
+  background-color: blueviolet;
+}
+.el-3 {
+  background-color: red;
+  height: 150px;
+}
+.el-4 {
+  background-color: yellow;
+}
+.el-5 {
+  background-color: crimson;
+  align-self: stretch;
+  order: 1;
+}
+.el-6 {
+  background-color: brown;
+  order: -1;
+}
+.el-7 {
+  background-color: green;
+}
+.el-8 {
+  background-color: orange;
+}
+.container {
+  font-size: 35px;
+  margin: 40px;
+  background-color: #ddd;
+  width: 730px;
+  /*flex*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
