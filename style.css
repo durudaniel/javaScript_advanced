@@ -13,19 +13,20 @@
 }
 .el-3 {
   background-color: red;
-  height: 150px;
+  align-self: flex-start;
+  /*height: 150px;*/
 }
 .el-4 {
   background-color: yellow;
 }
 .el-5 {
   background-color: crimson;
-  align-self: stretch;
-  order: 1;
+  /* align-self: stretch;
+  order: 1;*/
 }
 .el-6 {
   background-color: brown;
-  order: -1;
+  /*order: -1;*/
 }
 .el-7 {
   background-color: green;
@@ -33,13 +34,39 @@
 .el-8 {
   background-color: orange;
 }
-.container {
+/*.container {
   font-size: 35px;
   margin: 40px;
   background-color: #ddd;
-  width: 730px;
-  /*flex*/
+  width: 1000px;
+  /*flex
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10px;
+}*/
+/*.el {
+  
+  "DEFAULTS"
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  
+  flex-basis: 200px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+*/
+.container-1 {
+  margin-bottom: 100px;
+  font-size: 25px;
+  margin: 40px;
+  background-color: #ddd;
+  display: flex;
+}
+.container-2 {
+  margin-bottom: 100px;
+  font-size: 25px;
+  margin: 40px;
+  background-color: #ddd;
 }
