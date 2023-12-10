@@ -69,4 +69,5 @@
   font-size: 25px;
   margin: 40px;
   background-color: #ddd;
+  display: flex;
 }
