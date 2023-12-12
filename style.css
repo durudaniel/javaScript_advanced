@@ -34,8 +34,6 @@
 .el-8 {
   background-color: orange;
 }
-article {
-}
 .container {
   font-size: 30px;
   background-color: #ddd;
@@ -50,6 +48,7 @@ article {
   grid-template-rows: repeat(2, 1fr);
   column-gap: 20px;
   row-gap: 40px;
+  display: none;
 }
 
 /*.el {
@@ -72,5 +71,48 @@ article {
   display: flex;
 }*/
 .container-2 {
-  display: none;
+  background-color: black;
+  margin: 40px;
+  font-size: 35px;
+  width: 700px;
+  height: 600px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 125px 200px 125px;
+  grid-template-rows: 250px 100px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.el--1 {
+  background-color: blue;
+  /*align-self: flex-start;*/
+}
+.el--2 {
+  background-color: blueviolet;
+  grid-row: 2/3;
+}
+.el--3 {
+  background-color: red;
+  /*align-self: flex-start;*/
+  height: 150px;
+}
+.el--4 {
+  background-color: yellow;
+}
+.el--5 {
+  background-color: crimson;
+  /* align-self: stretch;
+  order: 1;*/
+}
+.el--6 {
+  background-color: brown;
+  /*order: -1;*/
+}
+.el--7 {
+  background-color: green;
+}
+.el--8 {
+  background-color: orange;
 }
